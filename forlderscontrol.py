@@ -19,7 +19,7 @@ for folders_Count in range(1,25):  # base on the number of folders.
     path_f= os.path.join(path_i,"Scene"+str(folders_Count))   # get the name of sub-directories
     fname = os.listdir(path_i)[1]                  # get the name of files 
 
-    #WARNING: IT WILL ALWAY TAKE THE FIRST FILE, AFTER YOU MOVE THE FIRST FILE, 
+    #WARNING: IT WILL ALWAY TAKE THE FIRST FILE, AFTER YOU MOVE THE FIRST FILE,  
     #THE SECOND WILL BE THE FIRST ONE SO YOU SHOULD ALWAYS KEEP MOVE OUT THE FIRST ONE
     
     before = os.path.join(path_i,fname)
